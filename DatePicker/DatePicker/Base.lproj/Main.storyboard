@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="DatePicker" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="2Il-fM-o2a">
+                                <rect key="frame" x="0.0" y="46" width="600" height="162"/>
+                                <color key="backgroundColor" red="0.97193991480585784" green="0.94185165024120865" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <date key="date" timeIntervalSinceReferenceDate="439010103.919137">
+                                    <!--2014-11-30 03:15:03 +0000-->
+                                </date>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zwF-dR-klv">
+                                <rect key="frame" x="135" y="264" width="330" height="39"/>
+                                <color key="backgroundColor" red="1" green="0.26088295754916546" blue="0.6821155514880346" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="330" id="Zz2-zE-rOU"/>
+                                    <constraint firstAttribute="height" constant="39" id="weF-7C-iUx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="Show me the day of the week!">
+                                    <color key="titleColor" red="0.99319143295601642" green="0.96105230826142529" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="findDayOfTheWeek:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ya5-js-3iN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.97335772424810107" blue="0.09112219339713179" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="2Il-fM-o2a" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="26" id="0GP-x7-xO3"/>
+                            <constraint firstItem="zwF-dR-klv" firstAttribute="centerX" secondItem="2Il-fM-o2a" secondAttribute="centerX" id="2yH-Lj-tQW"/>
+                            <constraint firstItem="2Il-fM-o2a" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="GF9-gg-oU1"/>
+                            <constraint firstAttribute="trailing" secondItem="2Il-fM-o2a" secondAttribute="trailing" id="tQF-gh-W1X"/>
+                            <constraint firstItem="zwF-dR-klv" firstAttribute="top" secondItem="2Il-fM-o2a" secondAttribute="bottom" constant="56" id="vRf-vk-U2L"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="datePicker" destination="2Il-fM-o2a" id="hzr-h8-t7h"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
