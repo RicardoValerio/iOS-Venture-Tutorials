@@ -19,16 +19,16 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="insert your name..." clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="unlessEditing" translatesAutoresizingMaskIntoConstraints="NO" id="TIH-wJ-Y20">
                                 <rect key="frame" x="190" y="193" width="221" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="221" id="Z7D-Lq-dAi"/>
+                                    <constraint firstAttribute="width" constant="221" id="4Kq-QU-JwL"/>
                                 </constraints>
                                 <color key="textColor" red="1" green="0.26088295750000001" blue="0.68211555150000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insert your name:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AZV-3e-VuF">
-                                <rect key="frame" x="233" y="145" width="134" height="22"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insert your name Bitch:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AZV-3e-VuF">
+                                <rect key="frame" x="211" y="144" width="178" height="22"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="22" id="0IF-7l-Q43"/>
+                                    <constraint firstAttribute="height" constant="22" id="c5R-Ou-fk0"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -37,10 +37,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="TIH-wJ-Y20" firstAttribute="top" secondItem="AZV-3e-VuF" secondAttribute="bottom" constant="26" id="AsV-9S-hEo"/>
-                            <constraint firstItem="TIH-wJ-Y20" firstAttribute="centerX" secondItem="AZV-3e-VuF" secondAttribute="centerX" id="orC-FZ-Cvz"/>
-                            <constraint firstItem="AZV-3e-VuF" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="125" id="u0E-GQ-yCd"/>
-                            <constraint firstItem="TIH-wJ-Y20" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="yso-G9-b5p"/>
+                            <constraint firstItem="TIH-wJ-Y20" firstAttribute="top" secondItem="AZV-3e-VuF" secondAttribute="bottom" constant="27" id="5PW-Au-dxs"/>
+                            <constraint firstItem="TIH-wJ-Y20" firstAttribute="centerX" secondItem="AZV-3e-VuF" secondAttribute="centerX" id="6EA-JW-XEx"/>
+                            <constraint firstItem="TIH-wJ-Y20" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="6m7-bW-Pkq"/>
+                            <constraint firstItem="AZV-3e-VuF" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="124" id="U35-yJ-CfL"/>
                         </constraints>
                     </view>
                 </viewController>
