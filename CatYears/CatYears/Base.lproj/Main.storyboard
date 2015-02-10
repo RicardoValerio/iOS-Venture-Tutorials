@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="CatYears" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cat Years" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZFO-ZX-HqF">
+                                <rect key="frame" x="247" y="52" width="107" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="107" id="dVY-pf-3U5"/>
+                                    <constraint firstAttribute="height" constant="32" id="jse-vB-0Al"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your Cat's age in years..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="URh-YT-KFC">
+                                <rect key="frame" x="150" y="117" width="301" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="FzQ-pf-Wpo"/>
+                                    <constraint firstAttribute="width" constant="301" id="zKm-2U-OzE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QIg-sH-p58">
+                                <rect key="frame" x="251" y="233" width="98" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="VbP-lX-Tsy"/>
+                                    <constraint firstAttribute="width" constant="98" id="e9L-pl-3bA"/>
+                                </constraints>
+                                <state key="normal" title="Find Age">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="FindCatAge:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="hbD-dv-4eH"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PWi-SM-1S0">
+                                <rect key="frame" x="150" y="282" width="301" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="btT-89-pY2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cat" highlightedImage="cat" translatesAutoresizingMaskIntoConstraints="NO" id="oR9-b4-H3G">
+                                <rect key="frame" x="149" y="350" width="302" height="201"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Cat's age" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="043-Tj-j9Y">
+                                <rect key="frame" x="251" y="168" width="96" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ZUU-N4-as6"/>
+                                    <constraint firstAttribute="width" constant="96" id="fdr-ZR-qkc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="oR9-b4-H3G" secondAttribute="bottom" constant="49" id="2Cm-sT-5mX"/>
+                            <constraint firstItem="ZFO-ZX-HqF" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="32" id="5d6-zn-m4D"/>
+                            <constraint firstItem="QIg-sH-p58" firstAttribute="centerX" secondItem="PWi-SM-1S0" secondAttribute="centerX" id="9Sw-zP-rJa"/>
+                            <constraint firstItem="oR9-b4-H3G" firstAttribute="trailing" secondItem="PWi-SM-1S0" secondAttribute="trailing" id="BdJ-qR-HyC"/>
+                            <constraint firstItem="QIg-sH-p58" firstAttribute="top" secondItem="043-Tj-j9Y" secondAttribute="bottom" constant="35" id="Hpa-tf-zGV"/>
+                            <constraint firstItem="URh-YT-KFC" firstAttribute="leading" secondItem="PWi-SM-1S0" secondAttribute="leading" id="Jdn-GX-NFX"/>
+                            <constraint firstItem="043-Tj-j9Y" firstAttribute="top" secondItem="URh-YT-KFC" secondAttribute="bottom" constant="30" id="KEy-fh-UXo"/>
+                            <constraint firstItem="PWi-SM-1S0" firstAttribute="top" secondItem="QIg-sH-p58" secondAttribute="bottom" constant="19" id="NTf-tj-yAX"/>
+                            <constraint firstItem="PWi-SM-1S0" firstAttribute="centerX" secondItem="oR9-b4-H3G" secondAttribute="centerX" id="Qzy-52-ERR"/>
+                            <constraint firstItem="URh-YT-KFC" firstAttribute="centerX" secondItem="ZFO-ZX-HqF" secondAttribute="centerX" id="UA6-80-hN0"/>
+                            <constraint firstItem="QIg-sH-p58" firstAttribute="leading" secondItem="043-Tj-j9Y" secondAttribute="leading" id="adD-D4-87x"/>
+                            <constraint firstItem="oR9-b4-H3G" firstAttribute="top" secondItem="PWi-SM-1S0" secondAttribute="bottom" constant="47" id="hT6-q7-rBc"/>
+                            <constraint firstItem="URh-YT-KFC" firstAttribute="top" secondItem="ZFO-ZX-HqF" secondAttribute="bottom" constant="33" id="lzC-jm-dPm"/>
+                            <constraint firstItem="oR9-b4-H3G" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="nHb-fu-foH"/>
+                            <constraint firstItem="URh-YT-KFC" firstAttribute="trailing" secondItem="PWi-SM-1S0" secondAttribute="trailing" id="qPR-1M-fk6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="showLabel" destination="PWi-SM-1S0" id="8tc-IF-KQl"/>
+                        <outlet property="textField" destination="043-Tj-j9Y" id="uyI-bL-XIv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cat" width="739" height="1000"/>
+    </resources>
+</document>
