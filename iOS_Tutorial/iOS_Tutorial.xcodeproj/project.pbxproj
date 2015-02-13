@@ -13,7 +13,6 @@
 		418891921A2A40AE00F8F47C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 418891911A2A40AE00F8F47C /* Images.xcassets */; };
 		418891951A2A40AE00F8F47C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 418891931A2A40AE00F8F47C /* LaunchScreen.xib */; };
 		418891A11A2A40AE00F8F47C /* iOS_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418891A01A2A40AE00F8F47C /* iOS_TutorialTests.swift */; };
-		418891AB1A2A4B5000F8F47C /* ch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 418891AA1A2A4B5000F8F47C /* ch.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +36,6 @@
 		4188919A1A2A40AE00F8F47C /* iOS_TutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_TutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4188919F1A2A40AE00F8F47C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		418891A01A2A40AE00F8F47C /* iOS_TutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_TutorialTests.swift; sourceTree = "<group>"; };
-		418891AA1A2A4B5000F8F47C /* ch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ch.jpg; path = ../ch.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +59,6 @@
 		4188917C1A2A40AE00F8F47C = {
 			isa = PBXGroup;
 			children = (
-				418891AA1A2A4B5000F8F47C /* ch.jpg */,
 				418891871A2A40AE00F8F47C /* iOS_Tutorial */,
 				4188919D1A2A40AE00F8F47C /* iOS_TutorialTests */,
 				418891861A2A40AE00F8F47C /* Products */,
@@ -195,7 +192,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				418891AB1A2A4B5000F8F47C /* ch.jpg in Resources */,
 				418891901A2A40AE00F8F47C /* Main.storyboard in Resources */,
 				418891951A2A40AE00F8F47C /* LaunchScreen.xib in Resources */,
 				418891921A2A40AE00F8F47C /* Images.xcassets in Resources */,
@@ -409,6 +405,7 @@
 				418891A61A2A40AE00F8F47C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		418891A71A2A40AE00F8F47C /* Build configuration list for PBXNativeTarget "iOS_TutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +414,7 @@
 				418891A91A2A40AE00F8F47C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
