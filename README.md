@@ -1,4 +1,2 @@
-iOS-Venture-Tutorials
-=====================
-
-Bazinga
+ios-venture :rocket:
+===========
