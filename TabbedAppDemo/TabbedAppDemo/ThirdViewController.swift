@@ -8,28 +8,32 @@
 
 import UIKit
 
-class ThirdViewController: UIViewController {
+class ThirdViewController: UIViewController
+{
 
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
 
         println("viewDidLoad of the ThirdViewController")
         // Do any additional setup after loading the view.
     }
 
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear( animated: Bool )
+    {
         println("ThirdViewController is about to appear")
     }
     
     
-    override func viewWillDisappear(animated: Bool) {
+    override func viewWillDisappear( animated: Bool )
+    {
         println("ThirdViewController is about to disappear")
     }
     
     
     
-    
-    override func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning()
+    {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
