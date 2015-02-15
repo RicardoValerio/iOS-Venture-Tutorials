@@ -31,6 +31,13 @@ class ViewController: UIViewController {
         // adicionar um botão ao frame do alert
         myAlert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
         
+        // adicionar um botão ao frame do alert
+        myAlert.addAction(UIAlertAction(title: "Cancel", style: UIAlertActionStyle.Default, handler: nil))
+        // adicionar um botão ao frame do alert
+        myAlert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+        // adicionar um botão ao frame do alert
+        myAlert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+        
         
         // mostrar o alert neste viewcontroller
         self.presentViewController(myAlert, animated: true, completion: nil)

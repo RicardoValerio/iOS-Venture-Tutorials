@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     // ===========================================================================
     // Existem muitos mais métodos que podem ser implementados que gerem o lifeCycle
     // da aplicação
-    // por exemplo
+    // por exemplo:
     // viewDidDisapper()
     // viewDidUnload()
     // viewWillAppear()

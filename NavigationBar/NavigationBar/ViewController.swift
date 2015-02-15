@@ -20,10 +20,19 @@ class ViewController: UIViewController {
     
     
     // Actions
-    @IBAction func Play(sender: AnyObject) {
+    @IBAction func Play(sender: AnyObject)
+    {
         
         self.myTimer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: Selector("updateTime"), userInfo: nil, repeats: true)
     }
+    
+    // class method called by Play() Action
+    func updateTime()
+    {
+        self.seconds++
+        self.timer.text = String(self.seconds)
+    }
+    
     
     @IBAction func Pause(sender: AnyObject) {
         self.myTimer.invalidate()
@@ -36,12 +45,7 @@ class ViewController: UIViewController {
     }
     
     
-    // class method called by Play() Action
-    func updateTime(){
-        self.seconds++
-        self.timer.text = String(self.seconds)
-    }
-    
+
     
     
     
