@@ -26,7 +26,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         return self.moodArray.count
     }
     
-    // datasource são componentes de contém métodos que se dizem respeito a
+    // datasource são componentes de contém métodos que dizem respeito a
     // informação. faz sempre a pergunta "How many"
     
     // delegates são responsáveis por actions, coisas a fazer, eventos, etc
