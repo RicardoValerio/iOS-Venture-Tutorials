@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  Surrealists
 //
-//  Created by Ricardo Valério on 12/02/15.
-//  Copyright (c) 2015 Ricardo Valério. All rights reserved.
+//  Created by James Bucanek on 9/27/14.
+//  Copyright (c) 2014 Apress. All rights reserved.
 //
 
 import UIKit

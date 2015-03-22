@@ -7,46 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		416503B51A8D560D006735AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416503B41A8D560D006735AC /* AppDelegate.swift */; };
-		416503B71A8D560D006735AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416503B61A8D560D006735AC /* ViewController.swift */; };
-		416503BA1A8D560D006735AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 416503B81A8D560D006735AC /* Main.storyboard */; };
-		416503BC1A8D560D006735AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 416503BB1A8D560D006735AC /* Images.xcassets */; };
-		416503BF1A8D560D006735AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 416503BD1A8D560D006735AC /* LaunchScreen.xib */; };
-		416503CB1A8D560D006735AC /* SurrealistsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416503CA1A8D560D006735AC /* SurrealistsTests.swift */; };
+		1A5FD1E019D7C12F00540A1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5FD1DF19D7C12F00540A1C /* AppDelegate.swift */; };
+		1A5FD1E219D7C12F00540A1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5FD1E119D7C12F00540A1C /* ViewController.swift */; };
+		1A5FD1E519D7C12F00540A1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A5FD1E319D7C12F00540A1C /* Main.storyboard */; };
+		1A5FD1E719D7C12F00540A1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5FD1E619D7C12F00540A1C /* Images.xcassets */; };
+		1A5FD1EA19D7C12F00540A1C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A5FD1E819D7C12F00540A1C /* LaunchScreen.xib */; };
+		1A5FD1F619D7C12F00540A1C /* SurrealistsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5FD1F519D7C12F00540A1C /* SurrealistsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		416503C51A8D560D006735AC /* PBXContainerItemProxy */ = {
+		1A5FD1F019D7C12F00540A1C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 416503A71A8D560C006735AC /* Project object */;
+			containerPortal = 1A5FD1D219D7C12F00540A1C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 416503AE1A8D560D006735AC;
+			remoteGlobalIDString = 1A5FD1D919D7C12F00540A1C;
 			remoteInfo = Surrealists;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		416503AF1A8D560D006735AC /* Surrealists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Surrealists.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		416503B31A8D560D006735AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		416503B41A8D560D006735AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		416503B61A8D560D006735AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		416503B91A8D560D006735AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		416503BB1A8D560D006735AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		416503BE1A8D560D006735AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		416503C41A8D560D006735AC /* SurrealistsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurrealistsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		416503C91A8D560D006735AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		416503CA1A8D560D006735AC /* SurrealistsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurrealistsTests.swift; sourceTree = "<group>"; };
+		1A5FD1DA19D7C12F00540A1C /* Surrealists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Surrealists.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A5FD1DE19D7C12F00540A1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A5FD1DF19D7C12F00540A1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A5FD1E119D7C12F00540A1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A5FD1E419D7C12F00540A1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A5FD1E619D7C12F00540A1C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1A5FD1E919D7C12F00540A1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1A5FD1EF19D7C12F00540A1C /* SurrealistsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurrealistsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A5FD1F419D7C12F00540A1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A5FD1F519D7C12F00540A1C /* SurrealistsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurrealistsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		416503AC1A8D560D006735AC /* Frameworks */ = {
+		1A5FD1D719D7C12F00540A1C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		416503C11A8D560D006735AC /* Frameworks */ = {
+		1A5FD1EC19D7C12F00540A1C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,58 +56,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		416503A61A8D560C006735AC = {
+		1A5FD1D119D7C12F00540A1C = {
 			isa = PBXGroup;
 			children = (
-				416503B11A8D560D006735AC /* Surrealists */,
-				416503C71A8D560D006735AC /* SurrealistsTests */,
-				416503B01A8D560D006735AC /* Products */,
+				1A5FD1DC19D7C12F00540A1C /* Surrealists */,
+				1A5FD1F219D7C12F00540A1C /* SurrealistsTests */,
+				1A5FD1DB19D7C12F00540A1C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		416503B01A8D560D006735AC /* Products */ = {
+		1A5FD1DB19D7C12F00540A1C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				416503AF1A8D560D006735AC /* Surrealists.app */,
-				416503C41A8D560D006735AC /* SurrealistsTests.xctest */,
+				1A5FD1DA19D7C12F00540A1C /* Surrealists.app */,
+				1A5FD1EF19D7C12F00540A1C /* SurrealistsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		416503B11A8D560D006735AC /* Surrealists */ = {
+		1A5FD1DC19D7C12F00540A1C /* Surrealists */ = {
 			isa = PBXGroup;
 			children = (
-				416503B41A8D560D006735AC /* AppDelegate.swift */,
-				416503B61A8D560D006735AC /* ViewController.swift */,
-				416503B81A8D560D006735AC /* Main.storyboard */,
-				416503BB1A8D560D006735AC /* Images.xcassets */,
-				416503BD1A8D560D006735AC /* LaunchScreen.xib */,
-				416503B21A8D560D006735AC /* Supporting Files */,
+				1A5FD1DF19D7C12F00540A1C /* AppDelegate.swift */,
+				1A5FD1E119D7C12F00540A1C /* ViewController.swift */,
+				1A5FD1E319D7C12F00540A1C /* Main.storyboard */,
+				1A5FD1E619D7C12F00540A1C /* Images.xcassets */,
+				1A5FD1E819D7C12F00540A1C /* LaunchScreen.xib */,
+				1A5FD1DD19D7C12F00540A1C /* Supporting Files */,
 			);
 			path = Surrealists;
 			sourceTree = "<group>";
 		};
-		416503B21A8D560D006735AC /* Supporting Files */ = {
+		1A5FD1DD19D7C12F00540A1C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				416503B31A8D560D006735AC /* Info.plist */,
+				1A5FD1DE19D7C12F00540A1C /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		416503C71A8D560D006735AC /* SurrealistsTests */ = {
+		1A5FD1F219D7C12F00540A1C /* SurrealistsTests */ = {
 			isa = PBXGroup;
 			children = (
-				416503CA1A8D560D006735AC /* SurrealistsTests.swift */,
-				416503C81A8D560D006735AC /* Supporting Files */,
+				1A5FD1F519D7C12F00540A1C /* SurrealistsTests.swift */,
+				1A5FD1F319D7C12F00540A1C /* Supporting Files */,
 			);
 			path = SurrealistsTests;
 			sourceTree = "<group>";
 		};
-		416503C81A8D560D006735AC /* Supporting Files */ = {
+		1A5FD1F319D7C12F00540A1C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				416503C91A8D560D006735AC /* Info.plist */,
+				1A5FD1F419D7C12F00540A1C /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -115,13 +115,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		416503AE1A8D560D006735AC /* Surrealists */ = {
+		1A5FD1D919D7C12F00540A1C /* Surrealists */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 416503CE1A8D560D006735AC /* Build configuration list for PBXNativeTarget "Surrealists" */;
+			buildConfigurationList = 1A5FD1F919D7C12F00540A1C /* Build configuration list for PBXNativeTarget "Surrealists" */;
 			buildPhases = (
-				416503AB1A8D560D006735AC /* Sources */,
-				416503AC1A8D560D006735AC /* Frameworks */,
-				416503AD1A8D560D006735AC /* Resources */,
+				1A5FD1D619D7C12F00540A1C /* Sources */,
+				1A5FD1D719D7C12F00540A1C /* Frameworks */,
+				1A5FD1D819D7C12F00540A1C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -129,46 +129,46 @@
 			);
 			name = Surrealists;
 			productName = Surrealists;
-			productReference = 416503AF1A8D560D006735AC /* Surrealists.app */;
+			productReference = 1A5FD1DA19D7C12F00540A1C /* Surrealists.app */;
 			productType = "com.apple.product-type.application";
 		};
-		416503C31A8D560D006735AC /* SurrealistsTests */ = {
+		1A5FD1EE19D7C12F00540A1C /* SurrealistsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 416503D11A8D560D006735AC /* Build configuration list for PBXNativeTarget "SurrealistsTests" */;
+			buildConfigurationList = 1A5FD1FC19D7C12F00540A1C /* Build configuration list for PBXNativeTarget "SurrealistsTests" */;
 			buildPhases = (
-				416503C01A8D560D006735AC /* Sources */,
-				416503C11A8D560D006735AC /* Frameworks */,
-				416503C21A8D560D006735AC /* Resources */,
+				1A5FD1EB19D7C12F00540A1C /* Sources */,
+				1A5FD1EC19D7C12F00540A1C /* Frameworks */,
+				1A5FD1ED19D7C12F00540A1C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				416503C61A8D560D006735AC /* PBXTargetDependency */,
+				1A5FD1F119D7C12F00540A1C /* PBXTargetDependency */,
 			);
 			name = SurrealistsTests;
 			productName = SurrealistsTests;
-			productReference = 416503C41A8D560D006735AC /* SurrealistsTests.xctest */;
+			productReference = 1A5FD1EF19D7C12F00540A1C /* SurrealistsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		416503A71A8D560C006735AC /* Project object */ = {
+		1A5FD1D219D7C12F00540A1C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
-				ORGANIZATIONNAME = "Ricardo Valério";
+				ORGANIZATIONNAME = Apress;
 				TargetAttributes = {
-					416503AE1A8D560D006735AC = {
-						CreatedOnToolsVersion = 6.1.1;
+					1A5FD1D919D7C12F00540A1C = {
+						CreatedOnToolsVersion = 6.1;
 					};
-					416503C31A8D560D006735AC = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 416503AE1A8D560D006735AC;
+					1A5FD1EE19D7C12F00540A1C = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 1A5FD1D919D7C12F00540A1C;
 					};
 				};
 			};
-			buildConfigurationList = 416503AA1A8D560C006735AC /* Build configuration list for PBXProject "Surrealists" */;
+			buildConfigurationList = 1A5FD1D519D7C12F00540A1C /* Build configuration list for PBXProject "Surrealists" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -176,29 +176,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 416503A61A8D560C006735AC;
-			productRefGroup = 416503B01A8D560D006735AC /* Products */;
+			mainGroup = 1A5FD1D119D7C12F00540A1C;
+			productRefGroup = 1A5FD1DB19D7C12F00540A1C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				416503AE1A8D560D006735AC /* Surrealists */,
-				416503C31A8D560D006735AC /* SurrealistsTests */,
+				1A5FD1D919D7C12F00540A1C /* Surrealists */,
+				1A5FD1EE19D7C12F00540A1C /* SurrealistsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		416503AD1A8D560D006735AC /* Resources */ = {
+		1A5FD1D819D7C12F00540A1C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				416503BA1A8D560D006735AC /* Main.storyboard in Resources */,
-				416503BF1A8D560D006735AC /* LaunchScreen.xib in Resources */,
-				416503BC1A8D560D006735AC /* Images.xcassets in Resources */,
+				1A5FD1E519D7C12F00540A1C /* Main.storyboard in Resources */,
+				1A5FD1EA19D7C12F00540A1C /* LaunchScreen.xib in Resources */,
+				1A5FD1E719D7C12F00540A1C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		416503C21A8D560D006735AC /* Resources */ = {
+		1A5FD1ED19D7C12F00540A1C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -208,46 +208,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		416503AB1A8D560D006735AC /* Sources */ = {
+		1A5FD1D619D7C12F00540A1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				416503B71A8D560D006735AC /* ViewController.swift in Sources */,
-				416503B51A8D560D006735AC /* AppDelegate.swift in Sources */,
+				1A5FD1E219D7C12F00540A1C /* ViewController.swift in Sources */,
+				1A5FD1E019D7C12F00540A1C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		416503C01A8D560D006735AC /* Sources */ = {
+		1A5FD1EB19D7C12F00540A1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				416503CB1A8D560D006735AC /* SurrealistsTests.swift in Sources */,
+				1A5FD1F619D7C12F00540A1C /* SurrealistsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		416503C61A8D560D006735AC /* PBXTargetDependency */ = {
+		1A5FD1F119D7C12F00540A1C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 416503AE1A8D560D006735AC /* Surrealists */;
-			targetProxy = 416503C51A8D560D006735AC /* PBXContainerItemProxy */;
+			target = 1A5FD1D919D7C12F00540A1C /* Surrealists */;
+			targetProxy = 1A5FD1F019D7C12F00540A1C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		416503B81A8D560D006735AC /* Main.storyboard */ = {
+		1A5FD1E319D7C12F00540A1C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				416503B91A8D560D006735AC /* Base */,
+				1A5FD1E419D7C12F00540A1C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		416503BD1A8D560D006735AC /* LaunchScreen.xib */ = {
+		1A5FD1E819D7C12F00540A1C /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				416503BE1A8D560D006735AC /* Base */,
+				1A5FD1E919D7C12F00540A1C /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -255,7 +255,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		416503CC1A8D560D006735AC /* Debug */ = {
+		1A5FD1F719D7C12F00540A1C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -289,7 +289,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -297,7 +297,7 @@
 			};
 			name = Debug;
 		};
-		416503CD1A8D560D006735AC /* Release */ = {
+		1A5FD1F819D7C12F00540A1C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -325,14 +325,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		416503CF1A8D560D006735AC /* Debug */ = {
+		1A5FD1FA19D7C12F00540A1C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -342,7 +342,7 @@
 			};
 			name = Debug;
 		};
-		416503D01A8D560D006735AC /* Release */ = {
+		1A5FD1FB19D7C12F00540A1C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -352,7 +352,7 @@
 			};
 			name = Release;
 		};
-		416503D21A8D560D006735AC /* Debug */ = {
+		1A5FD1FD19D7C12F00540A1C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -371,7 +371,7 @@
 			};
 			name = Debug;
 		};
-		416503D31A8D560D006735AC /* Release */ = {
+		1A5FD1FE19D7C12F00540A1C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -389,32 +389,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		416503AA1A8D560C006735AC /* Build configuration list for PBXProject "Surrealists" */ = {
+		1A5FD1D519D7C12F00540A1C /* Build configuration list for PBXProject "Surrealists" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				416503CC1A8D560D006735AC /* Debug */,
-				416503CD1A8D560D006735AC /* Release */,
+				1A5FD1F719D7C12F00540A1C /* Debug */,
+				1A5FD1F819D7C12F00540A1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		416503CE1A8D560D006735AC /* Build configuration list for PBXNativeTarget "Surrealists" */ = {
+		1A5FD1F919D7C12F00540A1C /* Build configuration list for PBXNativeTarget "Surrealists" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				416503CF1A8D560D006735AC /* Debug */,
-				416503D01A8D560D006735AC /* Release */,
+				1A5FD1FA19D7C12F00540A1C /* Debug */,
+				1A5FD1FB19D7C12F00540A1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		416503D11A8D560D006735AC /* Build configuration list for PBXNativeTarget "SurrealistsTests" */ = {
+		1A5FD1FC19D7C12F00540A1C /* Build configuration list for PBXNativeTarget "SurrealistsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				416503D21A8D560D006735AC /* Debug */,
-				416503D31A8D560D006735AC /* Release */,
+				1A5FD1FD19D7C12F00540A1C /* Debug */,
+				1A5FD1FE19D7C12F00540A1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 416503A71A8D560C006735AC /* Project object */;
+	rootObject = 1A5FD1D219D7C12F00540A1C /* Project object */;
 }
